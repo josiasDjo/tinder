@@ -2,7 +2,7 @@
     <application
         android:label="tinder"
         android:name="${applicationName}"
-        android:icon="@mipmap/ic_launcher">
+        android:icon="assets/images/tinder-icon-438x512-hhug9iq5.png">
         <activity
             android:name=".MainActivity"
             android:exported="true"

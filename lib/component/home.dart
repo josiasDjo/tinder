@@ -11,10 +11,22 @@ class MyHomePage extends StatelessWidget {
     return Scaffold(
       appBar: AppBar(
         // iconTheme : icon : Icon(Icons.ac_unit_sharp),
-        title: const Text(
-          "tinder",
-          style: TextStyle(
-              fontWeight: FontWeight.bold, fontSize: 25, color: Colors.red),
+        title: const Row(
+          children: <Widget>[
+            Image(
+              image:
+                  AssetImage("assets/images/tinder-icon-438x512-hhug9iq5.png"),
+              width: 20,
+            ),
+            SizedBox(
+              width: 8,
+            ),
+            Text(
+              "tinder",
+              style: TextStyle(
+                  fontWeight: FontWeight.bold, fontSize: 25, color: Colors.red),
+            ),
+          ],
         ),
         actions: [
           Icon(Icons.notifications_rounded),
