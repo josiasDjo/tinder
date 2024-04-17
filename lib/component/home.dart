@@ -30,9 +30,10 @@ class MyHomePage extends StatelessWidget {
         ),
         actions: [
           Icon(Icons.notifications_rounded),
+          SizedBox(width: 20),
           Icon(Icons.tune_rounded),
+          SizedBox(width: 18)
         ],
-        backgroundColor: Colors.white,
       ),
       body: Column(
         children: [
